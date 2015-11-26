@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		FFF424E91C06DA5E006F513E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF424E81C06DA5E006F513E /* main.m */; };
 		FFF424EC1C06DA5E006F513E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF424EB1C06DA5E006F513E /* AppDelegate.m */; };
-		FFF424EF1C06DA5E006F513E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF424EE1C06DA5E006F513E /* ViewController.m */; };
-		FFF424F21C06DA5E006F513E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF424F01C06DA5E006F513E /* Main.storyboard */; };
+		FFF424EF1C06DA5E006F513E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF424EE1C06DA5E006F513E /* RootViewController.m */; };
 		FFF424F51C06DA5E006F513E /* HPSlideViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFF424F31C06DA5E006F513E /* HPSlideViewController.xcdatamodeld */; };
 		FFF424F71C06DA5E006F513E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF424F61C06DA5E006F513E /* Assets.xcassets */; };
 		FFF424FA1C06DA5F006F513E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF424F81C06DA5F006F513E /* LaunchScreen.storyboard */; };
+		FFF4250D1C06DABA006F513E /* main_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFF425021C06DABA006F513E /* main_bg.jpg */; };
+		FFF4250E1C06DABA006F513E /* TCEContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF425051C06DABA006F513E /* TCEContainerViewController.m */; };
+		FFF4250F1C06DABA006F513E /* TCEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF425071C06DABA006F513E /* TCEMainViewController.m */; };
+		FFF425101C06DABA006F513E /* TCEMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF425091C06DABA006F513E /* TCEMenuViewController.m */; };
+		FFF425111C06DABA006F513E /* TCEPanSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF4250C1C06DABA006F513E /* TCEPanSettings.m */; };
+		FFF4251A1C06DB89006F513E /* NSString+TCEExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF425141C06DB89006F513E /* NSString+TCEExt.m */; };
+		FFF4251B1C06DB89006F513E /* UIStoryboard+TCEExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF425171C06DB89006F513E /* UIStoryboard+TCEExt.m */; };
+		FFF4251C1C06DB89006F513E /* UIViewController+TCEExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF425191C06DB89006F513E /* UIViewController+TCEExt.m */; };
+		FFF4251E1C06DBBC006F513E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF4251D1C06DBBC006F513E /* Main.storyboard */; };
+		FFF425221C06DCD5006F513E /* MyMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF425211C06DCD5006F513E /* MyMenuViewController.m */; };
+		FFF425251C06DD01006F513E /* MyMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF425241C06DD01006F513E /* MyMainViewController.m */; };
+		FFF425281C06E2C0006F513E /* TCEEmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF425271C06E2C0006F513E /* TCEEmptySegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +32,36 @@
 		FFF424E81C06DA5E006F513E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FFF424EA1C06DA5E006F513E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FFF424EB1C06DA5E006F513E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FFF424ED1C06DA5E006F513E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FFF424EE1C06DA5E006F513E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FFF424F11C06DA5E006F513E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF424ED1C06DA5E006F513E /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FFF424EE1C06DA5E006F513E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		FFF424F41C06DA5E006F513E /* HPSlideViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HPSlideViewController.xcdatamodel; sourceTree = "<group>"; };
 		FFF424F61C06DA5E006F513E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFF424F91C06DA5F006F513E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFF424FB1C06DA5F006F513E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF425021C06DABA006F513E /* main_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_bg.jpg; sourceTree = "<group>"; };
+		FFF425041C06DABA006F513E /* TCEContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCEContainerViewController.h; sourceTree = "<group>"; };
+		FFF425051C06DABA006F513E /* TCEContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCEContainerViewController.m; sourceTree = "<group>"; };
+		FFF425061C06DABA006F513E /* TCEMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCEMainViewController.h; sourceTree = "<group>"; };
+		FFF425071C06DABA006F513E /* TCEMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCEMainViewController.m; sourceTree = "<group>"; };
+		FFF425081C06DABA006F513E /* TCEMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCEMenuViewController.h; sourceTree = "<group>"; };
+		FFF425091C06DABA006F513E /* TCEMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCEMenuViewController.m; sourceTree = "<group>"; };
+		FFF4250A1C06DABA006F513E /* TCEPanProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCEPanProtocol.h; sourceTree = "<group>"; };
+		FFF4250B1C06DABA006F513E /* TCEPanSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCEPanSettings.h; sourceTree = "<group>"; };
+		FFF4250C1C06DABA006F513E /* TCEPanSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCEPanSettings.m; sourceTree = "<group>"; };
+		FFF425131C06DB89006F513E /* NSString+TCEExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TCEExt.h"; sourceTree = "<group>"; };
+		FFF425141C06DB89006F513E /* NSString+TCEExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TCEExt.m"; sourceTree = "<group>"; };
+		FFF425151C06DB89006F513E /* TCECommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCECommonMacro.h; sourceTree = "<group>"; };
+		FFF425161C06DB89006F513E /* UIStoryboard+TCEExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+TCEExt.h"; sourceTree = "<group>"; };
+		FFF425171C06DB89006F513E /* UIStoryboard+TCEExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+TCEExt.m"; sourceTree = "<group>"; };
+		FFF425181C06DB89006F513E /* UIViewController+TCEExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TCEExt.h"; sourceTree = "<group>"; };
+		FFF425191C06DB89006F513E /* UIViewController+TCEExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TCEExt.m"; sourceTree = "<group>"; };
+		FFF4251D1C06DBBC006F513E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FFF425201C06DCD5006F513E /* MyMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMenuViewController.h; sourceTree = "<group>"; };
+		FFF425211C06DCD5006F513E /* MyMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMenuViewController.m; sourceTree = "<group>"; };
+		FFF425231C06DD01006F513E /* MyMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMainViewController.h; sourceTree = "<group>"; };
+		FFF425241C06DD01006F513E /* MyMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMainViewController.m; sourceTree = "<group>"; };
+		FFF425261C06E2C0006F513E /* TCEEmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCEEmptySegue.h; sourceTree = "<group>"; };
+		FFF425271C06E2C0006F513E /* TCEEmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCEEmptySegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +94,15 @@
 		FFF424E61C06DA5E006F513E /* HPSlideViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FFF425121C06DB89006F513E /* TCEKit */,
+				FFF425011C06DABA006F513E /* Resources */,
+				FFF425031C06DABA006F513E /* SildeViewControllers */,
+				FFF4251F1C06DCAF006F513E /* Demos */,
 				FFF424EA1C06DA5E006F513E /* AppDelegate.h */,
 				FFF424EB1C06DA5E006F513E /* AppDelegate.m */,
-				FFF424ED1C06DA5E006F513E /* ViewController.h */,
-				FFF424EE1C06DA5E006F513E /* ViewController.m */,
-				FFF424F01C06DA5E006F513E /* Main.storyboard */,
+				FFF424ED1C06DA5E006F513E /* RootViewController.h */,
+				FFF424EE1C06DA5E006F513E /* RootViewController.m */,
+				FFF4251D1C06DBBC006F513E /* Main.storyboard */,
 				FFF424F61C06DA5E006F513E /* Assets.xcassets */,
 				FFF424F81C06DA5F006F513E /* LaunchScreen.storyboard */,
 				FFF424FB1C06DA5F006F513E /* Info.plist */,
@@ -80,6 +118,57 @@
 				FFF424E81C06DA5E006F513E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFF425011C06DABA006F513E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFF425021C06DABA006F513E /* main_bg.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FFF425031C06DABA006F513E /* SildeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFF425041C06DABA006F513E /* TCEContainerViewController.h */,
+				FFF425051C06DABA006F513E /* TCEContainerViewController.m */,
+				FFF425061C06DABA006F513E /* TCEMainViewController.h */,
+				FFF425071C06DABA006F513E /* TCEMainViewController.m */,
+				FFF425081C06DABA006F513E /* TCEMenuViewController.h */,
+				FFF425091C06DABA006F513E /* TCEMenuViewController.m */,
+				FFF4250A1C06DABA006F513E /* TCEPanProtocol.h */,
+				FFF4250B1C06DABA006F513E /* TCEPanSettings.h */,
+				FFF4250C1C06DABA006F513E /* TCEPanSettings.m */,
+				FFF425261C06E2C0006F513E /* TCEEmptySegue.h */,
+				FFF425271C06E2C0006F513E /* TCEEmptySegue.m */,
+			);
+			path = SildeViewControllers;
+			sourceTree = "<group>";
+		};
+		FFF425121C06DB89006F513E /* TCEKit */ = {
+			isa = PBXGroup;
+			children = (
+				FFF425131C06DB89006F513E /* NSString+TCEExt.h */,
+				FFF425141C06DB89006F513E /* NSString+TCEExt.m */,
+				FFF425151C06DB89006F513E /* TCECommonMacro.h */,
+				FFF425161C06DB89006F513E /* UIStoryboard+TCEExt.h */,
+				FFF425171C06DB89006F513E /* UIStoryboard+TCEExt.m */,
+				FFF425181C06DB89006F513E /* UIViewController+TCEExt.h */,
+				FFF425191C06DB89006F513E /* UIViewController+TCEExt.m */,
+			);
+			path = TCEKit;
+			sourceTree = "<group>";
+		};
+		FFF4251F1C06DCAF006F513E /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				FFF425201C06DCD5006F513E /* MyMenuViewController.h */,
+				FFF425211C06DCD5006F513E /* MyMenuViewController.m */,
+				FFF425231C06DD01006F513E /* MyMainViewController.h */,
+				FFF425241C06DD01006F513E /* MyMainViewController.m */,
+			);
+			path = Demos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +230,8 @@
 			files = (
 				FFF424FA1C06DA5F006F513E /* LaunchScreen.storyboard in Resources */,
 				FFF424F71C06DA5E006F513E /* Assets.xcassets in Resources */,
-				FFF424F21C06DA5E006F513E /* Main.storyboard in Resources */,
+				FFF4250D1C06DABA006F513E /* main_bg.jpg in Resources */,
+				FFF4251E1C06DBBC006F513E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,24 +242,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFF424EF1C06DA5E006F513E /* ViewController.m in Sources */,
+				FFF4250F1C06DABA006F513E /* TCEMainViewController.m in Sources */,
+				FFF4251B1C06DB89006F513E /* UIStoryboard+TCEExt.m in Sources */,
+				FFF425101C06DABA006F513E /* TCEMenuViewController.m in Sources */,
+				FFF4251C1C06DB89006F513E /* UIViewController+TCEExt.m in Sources */,
+				FFF424EF1C06DA5E006F513E /* RootViewController.m in Sources */,
 				FFF424EC1C06DA5E006F513E /* AppDelegate.m in Sources */,
+				FFF4250E1C06DABA006F513E /* TCEContainerViewController.m in Sources */,
+				FFF425251C06DD01006F513E /* MyMainViewController.m in Sources */,
+				FFF4251A1C06DB89006F513E /* NSString+TCEExt.m in Sources */,
 				FFF424F51C06DA5E006F513E /* HPSlideViewController.xcdatamodeld in Sources */,
+				FFF425281C06E2C0006F513E /* TCEEmptySegue.m in Sources */,
 				FFF424E91C06DA5E006F513E /* main.m in Sources */,
+				FFF425111C06DABA006F513E /* TCEPanSettings.m in Sources */,
+				FFF425221C06DCD5006F513E /* MyMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FFF424F01C06DA5E006F513E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFF424F11C06DA5E006F513E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FFF424F81C06DA5F006F513E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -304,6 +396,7 @@
 				FFF425001C06DA5F006F513E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
