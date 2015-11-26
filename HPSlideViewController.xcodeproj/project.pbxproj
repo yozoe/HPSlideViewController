@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFF424E91C06DA5E006F513E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF424E81C06DA5E006F513E /* main.m */; };
+		FFF424EC1C06DA5E006F513E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF424EB1C06DA5E006F513E /* AppDelegate.m */; };
+		FFF424EF1C06DA5E006F513E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF424EE1C06DA5E006F513E /* ViewController.m */; };
+		FFF424F21C06DA5E006F513E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF424F01C06DA5E006F513E /* Main.storyboard */; };
+		FFF424F51C06DA5E006F513E /* HPSlideViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFF424F31C06DA5E006F513E /* HPSlideViewController.xcdatamodeld */; };
+		FFF424F71C06DA5E006F513E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF424F61C06DA5E006F513E /* Assets.xcassets */; };
+		FFF424FA1C06DA5F006F513E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF424F81C06DA5F006F513E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFF424E41C06DA5E006F513E /* HPSlideViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPSlideViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF424E81C06DA5E006F513E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFF424EA1C06DA5E006F513E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFF424EB1C06DA5E006F513E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFF424ED1C06DA5E006F513E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFF424EE1C06DA5E006F513E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFF424F11C06DA5E006F513E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF424F41C06DA5E006F513E /* HPSlideViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HPSlideViewController.xcdatamodel; sourceTree = "<group>"; };
+		FFF424F61C06DA5E006F513E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF424F91C06DA5F006F513E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFF424FB1C06DA5F006F513E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF424E11C06DA5E006F513E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFF424DB1C06DA5E006F513E = {
+			isa = PBXGroup;
+			children = (
+				FFF424E61C06DA5E006F513E /* HPSlideViewController */,
+				FFF424E51C06DA5E006F513E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF424E51C06DA5E006F513E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF424E41C06DA5E006F513E /* HPSlideViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF424E61C06DA5E006F513E /* HPSlideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FFF424EA1C06DA5E006F513E /* AppDelegate.h */,
+				FFF424EB1C06DA5E006F513E /* AppDelegate.m */,
+				FFF424ED1C06DA5E006F513E /* ViewController.h */,
+				FFF424EE1C06DA5E006F513E /* ViewController.m */,
+				FFF424F01C06DA5E006F513E /* Main.storyboard */,
+				FFF424F61C06DA5E006F513E /* Assets.xcassets */,
+				FFF424F81C06DA5F006F513E /* LaunchScreen.storyboard */,
+				FFF424FB1C06DA5F006F513E /* Info.plist */,
+				FFF424F31C06DA5E006F513E /* HPSlideViewController.xcdatamodeld */,
+				FFF424E71C06DA5E006F513E /* Supporting Files */,
+			);
+			path = HPSlideViewController;
+			sourceTree = "<group>";
+		};
+		FFF424E71C06DA5E006F513E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF424E81C06DA5E006F513E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF424E31C06DA5E006F513E /* HPSlideViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF424FE1C06DA5F006F513E /* Build configuration list for PBXNativeTarget "HPSlideViewController" */;
+			buildPhases = (
+				FFF424E01C06DA5E006F513E /* Sources */,
+				FFF424E11C06DA5E006F513E /* Frameworks */,
+				FFF424E21C06DA5E006F513E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPSlideViewController;
+			productName = HPSlideViewController;
+			productReference = FFF424E41C06DA5E006F513E /* HPSlideViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF424DC1C06DA5E006F513E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Hu, Peng";
+				TargetAttributes = {
+					FFF424E31C06DA5E006F513E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = FFF424DF1C06DA5E006F513E /* Build configuration list for PBXProject "HPSlideViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF424DB1C06DA5E006F513E;
+			productRefGroup = FFF424E51C06DA5E006F513E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF424E31C06DA5E006F513E /* HPSlideViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF424E21C06DA5E006F513E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF424FA1C06DA5F006F513E /* LaunchScreen.storyboard in Resources */,
+				FFF424F71C06DA5E006F513E /* Assets.xcassets in Resources */,
+				FFF424F21C06DA5E006F513E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF424E01C06DA5E006F513E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF424EF1C06DA5E006F513E /* ViewController.m in Sources */,
+				FFF424EC1C06DA5E006F513E /* AppDelegate.m in Sources */,
+				FFF424F51C06DA5E006F513E /* HPSlideViewController.xcdatamodeld in Sources */,
+				FFF424E91C06DA5E006F513E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFF424F01C06DA5E006F513E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF424F11C06DA5E006F513E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFF424F81C06DA5F006F513E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF424F91C06DA5F006F513E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFF424FC1C06DA5F006F513E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFF424FD1C06DA5F006F513E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF424FF1C06DA5F006F513E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HPSlideViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.HPSlideViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFF425001C06DA5F006F513E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HPSlideViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.HPSlideViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF424DF1C06DA5E006F513E /* Build configuration list for PBXProject "HPSlideViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF424FC1C06DA5F006F513E /* Debug */,
+				FFF424FD1C06DA5F006F513E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF424FE1C06DA5F006F513E /* Build configuration list for PBXNativeTarget "HPSlideViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF424FF1C06DA5F006F513E /* Debug */,
+				FFF425001C06DA5F006F513E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FFF424F31C06DA5E006F513E /* HPSlideViewController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FFF424F41C06DA5E006F513E /* HPSlideViewController.xcdatamodel */,
+			);
+			currentVersion = FFF424F41C06DA5E006F513E /* HPSlideViewController.xcdatamodel */;
+			path = HPSlideViewController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FFF424DC1C06DA5E006F513E /* Project object */;
+}
